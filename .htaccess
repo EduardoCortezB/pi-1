@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^page/([a-zA-Z_]+)$ index.php?page=$1 [L]
+RewriteRule ^api-ad/([a-zA-Z]+)/([a-zA-Z]+)$ dashboard/api.php?action=$1&version=$2 [L]

@@ -1,0 +1,147 @@
+
+img {
+	max-width: 100%;
+}
+p{
+	color: aliceblue;
+}
+h1{
+	font-family: 'Lobster', cursive; color: rgb(224, 14, 14);
+}
+.img-form{
+	padding-top: 2.2rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-image: url('../img/banner-login.jpg');
+	height: 120vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.img-form:before {
+	position: absolute;
+	height: 120vh;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.form-all{
+	position: relative;
+	
+}
+
+.w3ls-login {
+	margin-top: 4rem;
+	justify-content: center;
+	align-items: center;
+}
+.w3ls-login form {
+	border-radius: 10px;
+	/* max-width: 550px; */
+    margin: 0 5vw;
+    background: #181818;
+    background-size: cover;
+    background: rgba(238, 238, 238, 0.651);
+    background-size: cover;
+    box-shadow: 2px 2px 17px rgba(41, 40, 40, 0.39);
+    padding: 3.5vw;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.w3ls-login label {
+	font-size: 14px;
+	color: #551313;
+	float: left;
+	font-weight: 500;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+
+.agile-field-txt {
+	flex-basis: 100%;
+	-webkit-flex-basis: 100%;
+	margin-bottom: 1.5em;
+}
+
+.w3ls-login label i {
+	font-size: 1.1em;
+	margin-right: 3px;
+	color: rgb(224, 14, 14);
+}
+
+.w3ls-login input[type="email"],
+.w3ls-login input[type="text"],
+.w3ls-login input[type="number"],
+.w3ls-login input[type="password"] {
+	border-radius: 10px;
+	width: 100%;
+	color: #000;
+	outline: none;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	/* line-height: 25px; */
+	padding: 15px 15px;
+	box-sizing: border-box;
+	border: none;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.49);
+	-webkit-appearance: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	background:#fff;
+}
+.check1 {
+	text-align: left;
+}
+label.check{
+	float: none;;
+}
+.agile_label {
+	text-align: left;
+    margin: 10px 0 0;
+}
+.w3ls-login.w3l-sub {
+	flex-basis: 100%;
+	-webkit-flex-basis: 100%;
+}
+a.w3ls-right {
+    float: right;
+	font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.w3ls-login input[type=submit] {
+	border-radius: 10px;
+	color: #f6f6f6;
+    width: 100%;
+    padding: 0.5em 0;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: rgb(224, 14, 14);
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+.w3ls-login input[type=submit]:hover {
+	background: rgb(112, 53, 53);
+	color: #fff;
+}
+.w3l-sub{
+	margin: -15px !important;
+	padding-top: 3px  !important;
+}
